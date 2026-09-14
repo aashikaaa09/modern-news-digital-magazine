@@ -1,168 +1,105 @@
-# \# Modern News \& Digital Magazine Platform
+# Modern News & Digital Magazine Platform
+
+A responsive digital news and magazine frontend application developed using React.js and Tailwind CSS as an internship project. The platform provides a modern reading experience with article discovery, search, category filtering, bookmarking, customizable reading preferences, and dark/light theme switching.
+
+## ✨ Features
+
+- Modern news homepage
+- Category-based browsing
+- Article reading pages
+- Search & filtering
+- Trending & featured news
+- Bookmarking with browser localStorage
+- Dark / light mode
+- Reading preferences
+- Responsive design
+- Reusable React components
+
+## 🛠️ Technologies
+
+- React.js
+- JavaScript / JSX
+- Tailwind CSS
+- Vite
+- React Router
+- Browser localStorage
+
+## 📂 Project Structure
+
+```
+modern-news-magazine/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── article/
+│   │   │   └── ReadingControls.jsx
+│   │   └── common/
+│   │       ├── ArticleCard.jsx
+│   │       ├── Badge.jsx
+│   │       ├── BookmarkButton.jsx
+│   │       ├── Footer.jsx
+│   │       └── Header.jsx
+│   ├── context/
+│   │   ├── AppProviders.jsx
+│   │   ├── BookmarkContext.jsx
+│   │   ├── PreferencesContext.jsx
+│   │   └── ThemeContext.jsx
+│   ├── data/
+│   │   ├── articles.js
+│   │   └── categories.js
+│   ├── pages/
+│   │   ├── ArticleDetailPage.jsx
+│   │   ├── BookmarksPage.jsx
+│   │   ├── CategoryPage.jsx
+│   │   ├── HomePage.jsx
+│   │   └── SearchPage.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## 📌 Application Routes
+
+| Route | Description |
+| --- | --- |
+| `/` | Home page |
+| `/category/:slug` | Category-based article page |
+| `/article/:id` | Article detail and reading page |
+| `/bookmarks` | Saved/bookmarked articles |
+| `/search` | Search and filtering interface |
+
+## 💡 Client-Side Features
+
+### Bookmarking
+Articles can be bookmarked directly from the interface. Bookmark data is stored in the browser's `localStorage`, allowing saved articles to remain available after refreshing the page.
+
+### Dark / Light Theme
+The application supports both dark and light themes. The selected theme preference is persisted using `localStorage` so it remains active across page reloads.
+
+### Reading Preferences
+Users can customize reading preferences including font size, font family, and line spacing while reading an article. These settings are persisted using `localStorage`.
+
+### Search and Filtering
+Users can search articles using instant text matching and filter content dynamically by news category.
+
+## 📱 Responsive Design
+
+The interface adapts across:
+- Desktop screens
+- Tablets
+- Mobile devices
 
-# 
+## 👩‍💻 Author
 
-# A responsive digital news and magazine platform developed as part of a Frontend Web Development internship project.
-
-# 
-
-# The application provides a modern interface for discovering, searching, filtering, reading, and bookmarking digital news articles across different categories.
-
-# 
-
-# \## Features
-
-# 
-
-# \- Modern digital-news homepage
-
-# \- Category-based article sections
-
-# \- Article detail and reading pages
-
-# \- Search interface
-
-# \- Category-based filtering
-
-# \- Trending news section
-
-# \- Featured news section
-
-# \- Bookmarking using browser localStorage
-
-# \- Dark and light theme
-
-# \- Persistent theme preference
-
-# \- Reading preference controls
-
-# \- Persistent reading preferences
-
-# \- Responsive design for mobile and desktop
-
-# \- Reusable React components
-
-# 
-
-# \## Technologies Used
-
-# 
-
-# \- React.js
-
-# \- JavaScript / JSX
-
-# \- Tailwind CSS
-
-# \- Vite
-
-# \- React Router
-
-# \- Browser localStorage
-
-# 
-
-# \## Application Routes
-
-# 
-
-# | Route | Description |
-
-# | --- | --- |
-
-# | `/` | Home page |
-
-# | `/category/:slug` | Category-based article page |
-
-# | `/article/:id` | Article detail and reading page |
-
-# | `/bookmarks` | Saved/bookmarked articles |
-
-# | `/search` | Search and filtering interface |
-
-# 
-
-# \## Project Structure
-
-# 
-
-# ```text
-
-# src/
-
-# ├── components/
-
-# │   ├── article/
-
-# │   └── common/
-
-# ├── context/
-
-# ├── data/
-
-# ├── pages/
-
-# ├── App.jsx
-
-# ├── App.css
-
-# ├── index.css
-
-# └── main.jsx
-
-
-
-
-
-Client-Side Features
-
-Bookmarking
-
-
-
-Articles can be bookmarked from the interface. Bookmark data is stored using the browser's localStorage, allowing saved articles to remain available after refreshing the page.
-
-
-
-Dark / Light Theme
-
-
-
-The application supports both dark and light themes. The selected theme is stored in localStorage so the preference persists across page refreshes.
-
-
-
-Reading Preferences
-
-
-
-Users can adjust reading preferences such as font size, font family, and line spacing while reading an article. These preferences are persisted using browser localStorage.
-
-
-
-Search and Filtering
-
-
-
-Users can search for articles and filter content based on news categories.
-
-
-
-Responsive Design
-
-
-
-The interface is designed to work across:
-
-
-
-Desktop screens
-
-Tablets
-
-Mobile devices
-
-
-
-The layout, navigation, article cards, reading interface, and other components adapt to different screen sizes.
-
+Aashika Kiran Nair
