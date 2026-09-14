@@ -1,16 +1,168 @@
-# React + Vite
+# \# Modern News \& Digital Magazine Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 
 
-Currently, two official plugins are available:
+# A responsive digital news and magazine platform developed as part of a Frontend Web Development internship project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 
 
-## React Compiler
+# The application provides a modern interface for discovering, searching, filtering, reading, and bookmarking digital news articles across different categories.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 
 
-## Expanding the Oxlint configuration
+# \## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# 
+
+# \- Modern digital-news homepage
+
+# \- Category-based article sections
+
+# \- Article detail and reading pages
+
+# \- Search interface
+
+# \- Category-based filtering
+
+# \- Trending news section
+
+# \- Featured news section
+
+# \- Bookmarking using browser localStorage
+
+# \- Dark and light theme
+
+# \- Persistent theme preference
+
+# \- Reading preference controls
+
+# \- Persistent reading preferences
+
+# \- Responsive design for mobile and desktop
+
+# \- Reusable React components
+
+# 
+
+# \## Technologies Used
+
+# 
+
+# \- React.js
+
+# \- JavaScript / JSX
+
+# \- Tailwind CSS
+
+# \- Vite
+
+# \- React Router
+
+# \- Browser localStorage
+
+# 
+
+# \## Application Routes
+
+# 
+
+# | Route | Description |
+
+# | --- | --- |
+
+# | `/` | Home page |
+
+# | `/category/:slug` | Category-based article page |
+
+# | `/article/:id` | Article detail and reading page |
+
+# | `/bookmarks` | Saved/bookmarked articles |
+
+# | `/search` | Search and filtering interface |
+
+# 
+
+# \## Project Structure
+
+# 
+
+# ```text
+
+# src/
+
+# ├── components/
+
+# │   ├── article/
+
+# │   └── common/
+
+# ├── context/
+
+# ├── data/
+
+# ├── pages/
+
+# ├── App.jsx
+
+# ├── App.css
+
+# ├── index.css
+
+# └── main.jsx
+
+
+
+
+
+Client-Side Features
+
+Bookmarking
+
+
+
+Articles can be bookmarked from the interface. Bookmark data is stored using the browser's localStorage, allowing saved articles to remain available after refreshing the page.
+
+
+
+Dark / Light Theme
+
+
+
+The application supports both dark and light themes. The selected theme is stored in localStorage so the preference persists across page refreshes.
+
+
+
+Reading Preferences
+
+
+
+Users can adjust reading preferences such as font size, font family, and line spacing while reading an article. These preferences are persisted using browser localStorage.
+
+
+
+Search and Filtering
+
+
+
+Users can search for articles and filter content based on news categories.
+
+
+
+Responsive Design
+
+
+
+The interface is designed to work across:
+
+
+
+Desktop screens
+
+Tablets
+
+Mobile devices
+
+
+
+The layout, navigation, article cards, reading interface, and other components adapt to different screen sizes.
+
