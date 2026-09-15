@@ -2,6 +2,9 @@
 
 A responsive digital news and magazine frontend application developed using React.js and Tailwind CSS as an internship project. The platform provides a modern reading experience with article discovery, search, category filtering, bookmarking, customizable reading preferences, and dark/light theme switching.
 
+<img width="977" height="873" alt="Modern News and Digital Magazine homepage" src="https://github.com/user-attachments/assets/411a5a0d-fd56-4a59-a2ce-0a87fb0427fd" />
+
+
 ## ✨ Features
 
 - Modern news homepage
